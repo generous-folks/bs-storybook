@@ -1,0 +1,24 @@
+{
+  "name": "@generous-folks/bs-storybook",
+  "version": "0.0.1",
+  "description": "BuckleScript bindings for Storybook.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "dev": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.0.1",
+    "@storybook/addon-actions": "^5.3.10",
+    "@storybook/addon-docs": "^5.3.10",
+    "@storybook/addon-knobs": "^5.3.10",
+    "@storybook/addons": "^5.3.10",
+    "@storybook/react": "^5.3.10"
+  },
+  "dependencies": {
+    "reason-react": "^0.7.0"
+  },
+  "peerDependencies": {
+  }
+}
