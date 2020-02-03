@@ -2,7 +2,7 @@
   "name": "bs-storybook",
   "namespace": true,
   "bsc-flags": ["-bs-super-errors"],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "sources": ["src"],
   "bs-dependencies": ["reason-react"],
   "package-specs": {
