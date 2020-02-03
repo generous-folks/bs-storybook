@@ -1,13 +1,13 @@
-type chapter = unit => ReasonReact.reactElement;
+type chapter = unit => React.element;
 
 type section;
 
 [@bs.val] [@bs.module "@storybook/react"]
-external storiesOf: (string, 'a) => section = "";
+external storiesOf: (string, 'a) => section = "storiesOf";
 
 [@bs.send] external extAdd: (section, string, chapter) => unit = "add";
 
-type decorator = chapter => ReasonReact.reactElement;
+type decorator = chapter => React.element;
 
 [@bs.send]
 external addDecorator: (section, decorator) => unit = "addDecorator";
