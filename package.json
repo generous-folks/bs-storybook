@@ -10,11 +10,11 @@
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "^7.0.1",
-    "@storybook/addon-actions": "^5.3.10",
-    "@storybook/addon-docs": "^5.3.10",
-    "@storybook/addon-knobs": "^5.3.10",
-    "@storybook/addons": "^5.3.10",
-    "@storybook/react": "^5.3.10"
+    "@storybook/addon-actions": "6.2.8",
+    "@storybook/addon-docs": "6.2.8",
+    "@storybook/addon-knobs": "6.2.8",
+    "@storybook/addons": "6.2.8",
+    "@storybook/react": "6.2.8"
   },
   "dependencies": {
     "reason-react": "^0.7.0"
